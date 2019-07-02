@@ -2,14 +2,16 @@
 
 /* Define some CSS variables: */
 :root {
-  /* COLOURS: */
+  /* COLOURS: 
+    https://coolors.co/0c0a0a-3f434e-dddadf-68a01b-3a721e */
   --fore: #0C0A0A;
   --mid: #3F434E;
   --back: #DDDADF;
   --comp-light: #68A01B;
   --comp-dark: #3A721E;
 
-  /* FONTS: */
+  /* FONTS: 
+    https://fonts.google.com/?selection.family=DM+Serif+Display|Open+Sans:400,400i,700,700i */
   --serif: 'DM Serif Display', georgia, serif;
   --sans: 'Open Sans', helvetica, arial, sans-serif;
 }
@@ -20,10 +22,10 @@ body {
   font: normal normal 1em/1.5 var(--sans);
 }
 
-/******************************************
+/**********************************************
   TYPE DEFINITIONS
   Any styles added based on the semantic type
-******************************************/
+**********************************************/
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--serif);
   font-weight: 700;
@@ -64,9 +66,9 @@ button {
 
 
 
-/******************************************
+/**********************************************
   GENERIC CLASSES
-******************************************/
+**********************************************/
 .container {
   max-width: 800px;
   padding: 0 1rem;
@@ -80,9 +82,9 @@ button {
   background-color: var(--comp-light); 
 }
 
-/******************************************
+/**********************************************
   SPECIFIC CLASSES
-******************************************/
+**********************************************/
 .site-header, .site-main, .site-footer {
   padding-top: 2em;
   padding-bottom: 2em;
