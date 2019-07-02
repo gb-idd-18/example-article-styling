@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Open+Sans:400,400i,700,700i&display=swap');
+
+/* Define some CSS variables: */
+:root {
+  /* COLOURS: */
+  --fore: #0C0A0A;
+  --mid: #3F434E;
+  --back: #DDDADF;
+  --comp-light: #68A01B;
+  --comp-dark: #3A721E;
+
+  /* FONTS: */
+  --serif: 'DM Serif Display', georgia, serif;
+  --sans: 'Open Sans', helvetica, arial, sans-serif;
+}
+
+body {
+  background-color: var(--back);
+  color: var(--fore);
+  /* font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  line-height: 1.5; */
+  font: normal normal 1em/1.5 var(--sans);
+}
+
+/******************************************
+  TYPE DEFINITIONS
+  Any styles added based on the semantic type
+******************************************/
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif);
+  font-weight: 700;
+  line-height: 1;
+  margin: 1rem 0;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.25em; }
+p {
+  margin: 1em 0;
+}
+img {
+  max-width: 100%;
+}
+strong {
+  background-color: var(--comp-light);
+  box-shadow: 0.125em 0.125em 0 var(--comp-dark);
+  padding: 0 0.25em;
+}
+a {
+  color: var(--comp-dark);
+  transition: all 0.2s;
+}
+a:hover {
+  background-color: var(--comp-light);
+  box-shadow: 0.125em 0.125em 0 var(--comp-dark);
+  color: var(--back);
+  text-shadow: 0.025em 0.025em 0 var(--fore)
+}
+button, input {
+  font: inherit;
+}
+button {
+  border: 0.125em solid var(--fore);
+}
+
+
+
+/******************************************
+  GENERIC CLASSES
+******************************************/
+.container {
+  max-width: 800px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.horizontal-rule {
+  border-bottom: 0.125em solid var(--fore);
+  padding-bottom: 0.25em;
+}
+.action {
+  background-color: var(--comp-light); 
+}
+
+/******************************************
+  SPECIFIC CLASSES
+******************************************/
+.site-header, .site-main, .site-footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.site-header {
+  background-color: var(--fore);
+  color: var(--back);
+}
+.site-footer {
+  background-color: var(--comp-light);
+}
+.published {
+  font-weight: 700;
+}
