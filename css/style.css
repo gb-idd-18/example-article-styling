@@ -17,11 +17,6 @@
 body {
   background-color: var(--back);
   color: var(--fore);
-  /* font-size: 1em;
-  font-weight: normal;
-  font-style: normal;
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
-  line-height: 1.5; */
   font: normal normal 1em/1.5 var(--sans);
 }
 
