@@ -32,9 +32,7 @@ I gave feedback to (then list the projects/repositories, for example...):
 <https://fonts.google.com/?selection.family=DM+Serif+Display|Open+Sans:400,400i,700,700i>
 
 1. DM Serif Display
-![DM Serif Display](https://speckyboy.com/wp-content/uploads/2018/02/popular-google-fonts-01.png)
-
-2. Open Sans
 ![DM Serif Display](https://1.bp.blogspot.com/-nZ2OWev4New/XRNWigeY6VI/AAAAAAAAApw/nfJLbqwMt1AXHefor-w61JFCGesoTXPQgCLcBGAs/s1600/DM%2BSerif%2BDisplay.png)
 
- ` https://imgs.fontbrain.com/imgs/62/9a/55a7e793da068dc580d184cc0e31/fsl-720-30-333333.png`
+2. Open Sans
+![DM Serif Display](https://speckyboy.com/wp-content/uploads/2018/02/popular-google-fonts-01.png)
