@@ -23,18 +23,18 @@ I gave feedback to (then list the projects/repositories, for example...):
 ### Colours
 <https://coolors.co/0c0a0a-3f434e-dddadf-68a01b-3a721e>
 - ![#0C0A0A](https://placehold.it/15/0C0A0A/000000?text=+) `#0C0A0A`
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
-  ```
-  --fore: #0C0A0A;
-  --mid: #3F434E;
-  --back: #DDDADF;
-  --comp-light: #68A01B;
-  --comp-dark: #3A721E;
-  ```
+- ![#3F434E](https://placehold.it/15/3F434E/000000?text=+) `#3F434E`
+- ![#DDDADF](https://placehold.it/15/DDDADF/000000?text=+) `#DDDADF`
+- ![#68A01B](https://placehold.it/15/68A01B/000000?text=+) `#68A01B`
+- ![#3A721E](https://placehold.it/15/3A721E/000000?text=+) `#3A721E`
+
 ### Fonts
 <https://fonts.google.com/?selection.family=DM+Serif+Display|Open+Sans:400,400i,700,700i>
-  ```
-  --serif: 'DM Serif Display', georgia, serif;
-  --sans: 'Open Sans', helvetica, arial, sans-serif;
-  ```
+
+1. DM Serif Display
+![DM Serif Display](https://speckyboy.com/wp-content/uploads/2018/02/popular-google-fonts-01.png)
+
+2. Open Sans
+![DM Serif Display](https://1.bp.blogspot.com/-nZ2OWev4New/XRNWigeY6VI/AAAAAAAAApw/nfJLbqwMt1AXHefor-w61JFCGesoTXPQgCLcBGAs/s1600/DM%2BSerif%2BDisplay.png)
+
+ ` https://imgs.fontbrain.com/imgs/62/9a/55a7e793da068dc580d184cc0e31/fsl-720-30-333333.png`
